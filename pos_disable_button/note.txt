@@ -1,0 +1,11 @@
+1.setup() { super.setup(); }:
+        The setup method is a lifecycle hook in Odoo's PoS framework. When a new instance of a component is created,
+         the setup method is called automatically.
+        super.setup(), ensure that the initialization logic defined in the PosComponent
+          base class is executed before any additional setup logic specific to OLSampleButton.
+
+2.
+    require("@web/utils/core/hooks"): This is importing the module or package named "@web/utils/core/hooks".
+        utility functions for managing various aspects of the UI and behavior are often organized into such modules.
+    { useListener }: This syntax is destructuring assignment,
+        extracting the useListener property from the object/module imported using require
